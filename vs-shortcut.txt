@@ -1,0 +1,23 @@
+1. Searchbar
+ctrl + shift + p
+
+2. font size big and small
+ctrl + mouse wheel scroll
+
+3. select duplicate item
+ctrl+ d
+
+4. duplicate line
+shift + alt + down arrow
+
+5. line move
+alt + up/down arrow
+
+6. quickly go to diffrent file
+ctrl + p
+
+7. quickly go to diffrent file
+ctrl + tab
+
+8. close all tabs
+ctrl + k + w
