@@ -1,0 +1,37 @@
+//git command
+1. present directory
+pwd
+
+2. make directory/folder
+mkdir folder_name
+
+3. go to current directory 
+cd foldername
+
+4. whats inside folder
+ls
+
+5. see hidden files
+ls -a
+
+6. start/initialize git
+git init
+
+7. create file 
+touch filename
+
+8. see status
+git status
+
+9. add folder staging area. untracking to tracking
+git add filename
+git add -A //add all file with subdirectory
+git add . // add all file without subdirectory
+
+10. restor and unstaging data
+git restore filename
+git rm --cached filename // unstage
+
+11. what i changed
+git diff
+
