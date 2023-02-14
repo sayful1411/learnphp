@@ -108,7 +108,7 @@ echo $result;
 echo "\n";
 
 // Switch
-$color = 'White';
+$color = 'green';
 
 switch ($color) {
     /*case 'green':
@@ -156,7 +156,7 @@ switch ($z) {
 }
 
 echo "\n";
-
+// Best Practice
 switch (true) {
     case (0 == $z && $x > 0):
         echo "{$x} is a positive even number";

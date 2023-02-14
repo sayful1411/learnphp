@@ -33,6 +33,7 @@ function sum($x,$y,$z):int{ // type hinting for return type
 }
 
 /**
+ * set default value
  * Call a robot to serve food
  * must use a default value for last parameter if you use a default value for first parameter
  */
@@ -208,3 +209,16 @@ doExtra();
 doExtra();
 doExtra();
 doExtra();
+
+function test()
+{
+    static $count = 0;
+
+    $count++;
+    echo $count;
+    if ($count < 10) {
+        test();
+    }
+    $count--;
+}
+test();
