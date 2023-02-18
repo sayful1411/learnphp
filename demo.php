@@ -44,4 +44,28 @@ function hasPairWithSum($array, $sum) {
 has_pair_with_sum([5, 7, 1, 2, 8, 4, 3], 8);
 echo PHP_EOL;
 
+for($row = 1;$row <= 3;$row++){
+    echo "row \n";
+    for($col = 1;$col <= 3;$col++){
+        echo "col ";
+    }
+    echo "\n";
+    
+}
+
+function generate_password($length) {
+    // define possible characters
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-=+;:,.?";
+    // get the number of possible characters
+    $num_chars = strlen($chars);
+    // initialize the password string
+    $password = "";
+    // loop to generate random password
+    for ($i = 0; $i < $length; $i++) {
+        $password .= $chars[rand(0, $num_chars - 1)];
+    }
+    // return the password
+    return $password;
+}
+echo generate_password(8);
 ?>
