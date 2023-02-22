@@ -1,32 +1,31 @@
 <?php
 /**
  * Function (Hasin Hyder video)
- * print_r()
- * count()
- * array_shift()
- * array_pop()
- * array_push() 
- * array_unshift()
- * array_keys()
- * array_values()
- * explode()
- * preg_split()
+ * print_r — Prints human-readable information about a variable
+ * count — Counts all elements in an array 
+ * array_shift — Shift an element off the beginning of array
+ * array_pop — Pop the element off the end of array
+ * array_push — Push one or more elements onto the end of array 
+ * array_unshift — Prepend one or more elements to the beginning of an array
+ * array_keys — Return all the keys of an array
+ * array_values — Return all the values of an array
+ * preg_split — Split string by a regular expression
  * join()
  * serialize()
  * unserialize()
  * json_encode()
  * json_decode()
- * unset()
- * array_slice()
+ * unset — Unset a given variable
+ * array_slice — Extract a slice of the array
  * array_splice()
- * array_merge()
+ * array_merge — Merge or concate one or more arrays
  * sort()
  * rsort()
  * asort()
  * arsort()
  * ksort()
  * krsort()
- * in_array()
+ * in_array — Checks if a value exists in an array
  * key_exists()
  * array_search()
  * array_intersect()

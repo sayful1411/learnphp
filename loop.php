@@ -7,11 +7,20 @@
  */
 
 //  while loop
-$i = 0;
-while($i<=10){
-    echo "The Number is {$i}\n";
-    //$i++;
-    $i+=2;
+// $i = 0;
+// while($i<=10){
+//     echo "The Number is {$i}\n";
+//     //$i++;
+//     $i+=2;
+// }
+$count = 0;
+while($count<=10){
+    if($count == 5){
+        $count++;
+        continue;
+    }
+    echo "The Number is {$count}\n";
+    $count++;
 }
 echo "=========\n";
 

@@ -4,21 +4,21 @@
 /*
 Here is a list of 20 commonly used string functions in PHP:
 
-strlen
-substr
-strpos
-str_replace
-trim
-strtoupper
-strtolower
-ucfirst
-ucwords
-strrev
-str_pad
-str_repeat
-str_split
-explode
-implode
+strlen — Get string length
+substr  — Return part of a string
+strpos — Find the position of the first occurrence of a substring in a string
+str_replace — Replace all occurrences of the search string with the replacement string
+trim — remove whitespace
+strtoupper — Make a string uppercase
+strtolower — Make a string lowercase
+ucfirst — Make a string's first character uppercase
+ucwords — Uppercase the first character of each word in a string
+strrev — Reverse a string
+str_pad — Pad a string to a certain length with another string
+str_repeat — Repeat a string
+str_split — Convert each word of a string to an array
+explode — Split a string by a string
+implode — Join array elements with a string
 addslashes
 stripslashes
 htmlentities
@@ -189,7 +189,11 @@ These functions can be used to perform various operations on strings such as fin
 // echo strip_tags($string);
 // Output: Hello, World!
 
-// wordwrap()
-// 
-$string = "Hello World!";
-echo wordwrap($string,3,"\n");
+//===== wordwrap() 
+
+// $string = "Hello World!";
+// echo wordwrap($string,3,"\n");
+
+// number_format()
+
+echo number_format("1000000",2)."\n";

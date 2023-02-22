@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="process-form.php">
+        <label for="company">Select a company:</label>
+        <select name="company" id="company">
+            <option value="company1">Company 1</option>
+            <option value="company2">Company 2</option>
+            <option value="company3">Company 3</option>
+            <!-- Add more options as needed -->
+        </select>
+    
+        <label for="bus">Select a bus:</label>
+        <select name="bus" id="bus">
+            <option value="bus1">Bus 1</option>
+            <option value="bus2">Bus 2</option>
+            <option value="bus3">Bus 3</option>
+            <!-- Add more options as needed -->
+        </select>
+    
+        <label for="category">Select a cost category:</label>
+        <select name="category" id="category">
+            <option value="fuel">Fuel</option>
+            <option value="maintenance">Maintenance</option>
+            <option value="insurance">Insurance</option>
+            <!-- Add more options as needed -->
+        </select>
+    
+        <label for="cost">Enter the cost:</label>
+        <input type="number" name="cost" id="cost" />
+    
+        <input type="submit" value="Submit" />
+    </form>    
+</body>
+</html>

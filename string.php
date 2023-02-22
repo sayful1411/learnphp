@@ -6,7 +6,7 @@
 
 $name = "Riyad";
 //$string = 'My name is {$name} \t';
-$string = "My name is {$name} \t \n";
+$string = "My name is {$name} \t \n"; // string interpolation
 echo $string;
 
 $heredoc = <<<EOD
